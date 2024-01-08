@@ -1,0 +1,722 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA90BFCE2B4B02BF00D8AA19 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA90BFCD2B4B02BF00D8AA19 /* AppDelegate.m */; };
+		BA90BFD12B4B02BF00D8AA19 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA90BFD02B4B02BF00D8AA19 /* SceneDelegate.m */; };
+		BA90BFD72B4B02BF00D8AA19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA90BFD52B4B02BF00D8AA19 /* Main.storyboard */; };
+		BA90BFD92B4B02C200D8AA19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA90BFD82B4B02C200D8AA19 /* Assets.xcassets */; };
+		BA90BFDC2B4B02C200D8AA19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA90BFDA2B4B02C200D8AA19 /* LaunchScreen.storyboard */; };
+		BA90BFDF2B4B02C200D8AA19 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA90BFDE2B4B02C200D8AA19 /* main.m */; };
+		BA90BFE92B4B02C300D8AA19 /* Ienergizer_taskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA90BFE82B4B02C300D8AA19 /* Ienergizer_taskTests.m */; };
+		BA90BFF32B4B02C300D8AA19 /* Ienergizer_taskUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA90BFF22B4B02C300D8AA19 /* Ienergizer_taskUITests.m */; };
+		BA90BFF52B4B02C400D8AA19 /* Ienergizer_taskUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA90BFF42B4B02C400D8AA19 /* Ienergizer_taskUITestsLaunchTests.m */; };
+		BA90C0062B4B02F100D8AA19 /* NewsDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA90C0032B4B02F000D8AA19 /* NewsDetailsViewController.m */; };
+		BA90C0072B4B02F100D8AA19 /* NewsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA90C0042B4B02F100D8AA19 /* NewsListViewController.m */; };
+		BA90C00C2B4B030700D8AA19 /* NewsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BA90C0092B4B030500D8AA19 /* NewsTableViewCell.m */; };
+		BA90C00D2B4B030700D8AA19 /* NewsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA90C00A2B4B030600D8AA19 /* NewsTableViewCell.xib */; };
+		BA90C0132B4B031B00D8AA19 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = BA90C00F2B4B031900D8AA19 /* Constants.m */; };
+		BA90C0142B4B031B00D8AA19 /* CustomImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA90C0112B4B031A00D8AA19 /* CustomImageView.m */; };
+		BA90C01C2B4B033000D8AA19 /* Article.m in Sources */ = {isa = PBXBuildFile; fileRef = BA90C0162B4B032D00D8AA19 /* Article.m */; };
+		BA90C01D2B4B033000D8AA19 /* News.m in Sources */ = {isa = PBXBuildFile; fileRef = BA90C0172B4B032D00D8AA19 /* News.m */; };
+		BA90C01E2B4B033000D8AA19 /* ImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = BA90C0192B4B032E00D8AA19 /* ImageCache.m */; };
+		BA90C0222B4B034300D8AA19 /* APIService.m in Sources */ = {isa = PBXBuildFile; fileRef = BA90C0202B4B034200D8AA19 /* APIService.m */; };
+		BA90C0262B4B035600D8AA19 /* NewsListViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BA90C0252B4B035500D8AA19 /* NewsListViewModel.m */; };
+		BA90C02C2B4B036900D8AA19 /* NewsListViewModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA90C0272B4B036800D8AA19 /* NewsListViewModelTests.m */; };
+		BA90C02D2B4B036900D8AA19 /* NewsTableviewcellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA90C0282B4B036800D8AA19 /* NewsTableviewcellTests.m */; };
+		BA90C02E2B4B036900D8AA19 /* CustomImageViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA90C0292B4B036900D8AA19 /* CustomImageViewTests.m */; };
+		BA90C02F2B4B036900D8AA19 /* MockAPIServiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA90C02A2B4B036900D8AA19 /* MockAPIServiceTests.m */; };
+		BA90C0302B4B036900D8AA19 /* NewsDetailsViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA90C02B2B4B036900D8AA19 /* NewsDetailsViewControllerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA90BFE52B4B02C300D8AA19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA90BFC12B4B02BF00D8AA19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA90BFC82B4B02BF00D8AA19;
+			remoteInfo = Ienergizer_task;
+		};
+		BA90BFEF2B4B02C300D8AA19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA90BFC12B4B02BF00D8AA19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA90BFC82B4B02BF00D8AA19;
+			remoteInfo = Ienergizer_task;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA90BFC92B4B02BF00D8AA19 /* Ienergizer_task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ienergizer_task.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA90BFCC2B4B02BF00D8AA19 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BA90BFCD2B4B02BF00D8AA19 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BA90BFCF2B4B02BF00D8AA19 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		BA90BFD02B4B02BF00D8AA19 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		BA90BFD62B4B02BF00D8AA19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA90BFD82B4B02C200D8AA19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA90BFDB2B4B02C200D8AA19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA90BFDD2B4B02C200D8AA19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA90BFDE2B4B02C200D8AA19 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BA90BFE42B4B02C300D8AA19 /* Ienergizer_taskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Ienergizer_taskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA90BFE82B4B02C300D8AA19 /* Ienergizer_taskTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ienergizer_taskTests.m; sourceTree = "<group>"; };
+		BA90BFEE2B4B02C300D8AA19 /* Ienergizer_taskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Ienergizer_taskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA90BFF22B4B02C300D8AA19 /* Ienergizer_taskUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ienergizer_taskUITests.m; sourceTree = "<group>"; };
+		BA90BFF42B4B02C400D8AA19 /* Ienergizer_taskUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ienergizer_taskUITestsLaunchTests.m; sourceTree = "<group>"; };
+		BA90C0022B4B02F000D8AA19 /* NewsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsListViewController.h; sourceTree = "<group>"; };
+		BA90C0032B4B02F000D8AA19 /* NewsDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsDetailsViewController.m; sourceTree = "<group>"; };
+		BA90C0042B4B02F100D8AA19 /* NewsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsListViewController.m; sourceTree = "<group>"; };
+		BA90C0052B4B02F100D8AA19 /* NewsDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsDetailsViewController.h; sourceTree = "<group>"; };
+		BA90C0092B4B030500D8AA19 /* NewsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsTableViewCell.m; sourceTree = "<group>"; };
+		BA90C00A2B4B030600D8AA19 /* NewsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewsTableViewCell.xib; sourceTree = "<group>"; };
+		BA90C00B2B4B030600D8AA19 /* NewsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsTableViewCell.h; sourceTree = "<group>"; };
+		BA90C00F2B4B031900D8AA19 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		BA90C0102B4B031900D8AA19 /* CustomImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomImageView.h; sourceTree = "<group>"; };
+		BA90C0112B4B031A00D8AA19 /* CustomImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomImageView.m; sourceTree = "<group>"; };
+		BA90C0122B4B031A00D8AA19 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		BA90C0162B4B032D00D8AA19 /* Article.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Article.m; sourceTree = "<group>"; };
+		BA90C0172B4B032D00D8AA19 /* News.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = News.m; sourceTree = "<group>"; };
+		BA90C0182B4B032E00D8AA19 /* ImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCache.h; sourceTree = "<group>"; };
+		BA90C0192B4B032E00D8AA19 /* ImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCache.m; sourceTree = "<group>"; };
+		BA90C01A2B4B032F00D8AA19 /* News.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = News.h; sourceTree = "<group>"; };
+		BA90C01B2B4B032F00D8AA19 /* Article.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Article.h; sourceTree = "<group>"; };
+		BA90C0202B4B034200D8AA19 /* APIService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIService.m; sourceTree = "<group>"; };
+		BA90C0212B4B034300D8AA19 /* APIService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIService.h; sourceTree = "<group>"; };
+		BA90C0242B4B035500D8AA19 /* NewsListViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsListViewModel.h; sourceTree = "<group>"; };
+		BA90C0252B4B035500D8AA19 /* NewsListViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsListViewModel.m; sourceTree = "<group>"; };
+		BA90C0272B4B036800D8AA19 /* NewsListViewModelTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsListViewModelTests.m; sourceTree = "<group>"; };
+		BA90C0282B4B036800D8AA19 /* NewsTableviewcellTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsTableviewcellTests.m; sourceTree = "<group>"; };
+		BA90C0292B4B036900D8AA19 /* CustomImageViewTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomImageViewTests.m; sourceTree = "<group>"; };
+		BA90C02A2B4B036900D8AA19 /* MockAPIServiceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MockAPIServiceTests.m; sourceTree = "<group>"; };
+		BA90C02B2B4B036900D8AA19 /* NewsDetailsViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsDetailsViewControllerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA90BFC62B4B02BF00D8AA19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA90BFE12B4B02C300D8AA19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA90BFEB2B4B02C300D8AA19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA90BFC02B4B02BF00D8AA19 = {
+			isa = PBXGroup;
+			children = (
+				BA90BFCB2B4B02BF00D8AA19 /* Ienergizer_task */,
+				BA90BFE72B4B02C300D8AA19 /* Ienergizer_taskTests */,
+				BA90BFF12B4B02C300D8AA19 /* Ienergizer_taskUITests */,
+				BA90BFCA2B4B02BF00D8AA19 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA90BFCA2B4B02BF00D8AA19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA90BFC92B4B02BF00D8AA19 /* Ienergizer_task.app */,
+				BA90BFE42B4B02C300D8AA19 /* Ienergizer_taskTests.xctest */,
+				BA90BFEE2B4B02C300D8AA19 /* Ienergizer_taskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA90BFCB2B4B02BF00D8AA19 /* Ienergizer_task */ = {
+			isa = PBXGroup;
+			children = (
+				BA90BFCC2B4B02BF00D8AA19 /* AppDelegate.h */,
+				BA90BFCD2B4B02BF00D8AA19 /* AppDelegate.m */,
+				BA90BFCF2B4B02BF00D8AA19 /* SceneDelegate.h */,
+				BA90BFD02B4B02BF00D8AA19 /* SceneDelegate.m */,
+				BA90C0232B4B034900D8AA19 /* ViewModels */,
+				BA90C01F2B4B033600D8AA19 /* APIService */,
+				BA90C0152B4B032200D8AA19 /* Models */,
+				BA90C00E2B4B030E00D8AA19 /* Utilities */,
+				BA90C0082B4B02F800D8AA19 /* Cell */,
+				BA90C0012B4B02E400D8AA19 /* Controllers */,
+				BA90BFD52B4B02BF00D8AA19 /* Main.storyboard */,
+				BA90BFD82B4B02C200D8AA19 /* Assets.xcassets */,
+				BA90BFDA2B4B02C200D8AA19 /* LaunchScreen.storyboard */,
+				BA90BFDD2B4B02C200D8AA19 /* Info.plist */,
+				BA90BFDE2B4B02C200D8AA19 /* main.m */,
+			);
+			path = Ienergizer_task;
+			sourceTree = "<group>";
+		};
+		BA90BFE72B4B02C300D8AA19 /* Ienergizer_taskTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA90C0292B4B036900D8AA19 /* CustomImageViewTests.m */,
+				BA90C02A2B4B036900D8AA19 /* MockAPIServiceTests.m */,
+				BA90C02B2B4B036900D8AA19 /* NewsDetailsViewControllerTests.m */,
+				BA90C0272B4B036800D8AA19 /* NewsListViewModelTests.m */,
+				BA90C0282B4B036800D8AA19 /* NewsTableviewcellTests.m */,
+				BA90BFE82B4B02C300D8AA19 /* Ienergizer_taskTests.m */,
+			);
+			path = Ienergizer_taskTests;
+			sourceTree = "<group>";
+		};
+		BA90BFF12B4B02C300D8AA19 /* Ienergizer_taskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BA90BFF22B4B02C300D8AA19 /* Ienergizer_taskUITests.m */,
+				BA90BFF42B4B02C400D8AA19 /* Ienergizer_taskUITestsLaunchTests.m */,
+			);
+			path = Ienergizer_taskUITests;
+			sourceTree = "<group>";
+		};
+		BA90C0012B4B02E400D8AA19 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BA90C0052B4B02F100D8AA19 /* NewsDetailsViewController.h */,
+				BA90C0032B4B02F000D8AA19 /* NewsDetailsViewController.m */,
+				BA90C0022B4B02F000D8AA19 /* NewsListViewController.h */,
+				BA90C0042B4B02F100D8AA19 /* NewsListViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BA90C0082B4B02F800D8AA19 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				BA90C00B2B4B030600D8AA19 /* NewsTableViewCell.h */,
+				BA90C0092B4B030500D8AA19 /* NewsTableViewCell.m */,
+				BA90C00A2B4B030600D8AA19 /* NewsTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		BA90C00E2B4B030E00D8AA19 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				BA90C0122B4B031A00D8AA19 /* Constants.h */,
+				BA90C00F2B4B031900D8AA19 /* Constants.m */,
+				BA90C0102B4B031900D8AA19 /* CustomImageView.h */,
+				BA90C0112B4B031A00D8AA19 /* CustomImageView.m */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		BA90C0152B4B032200D8AA19 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BA90C01B2B4B032F00D8AA19 /* Article.h */,
+				BA90C0162B4B032D00D8AA19 /* Article.m */,
+				BA90C0182B4B032E00D8AA19 /* ImageCache.h */,
+				BA90C0192B4B032E00D8AA19 /* ImageCache.m */,
+				BA90C01A2B4B032F00D8AA19 /* News.h */,
+				BA90C0172B4B032D00D8AA19 /* News.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BA90C01F2B4B033600D8AA19 /* APIService */ = {
+			isa = PBXGroup;
+			children = (
+				BA90C0212B4B034300D8AA19 /* APIService.h */,
+				BA90C0202B4B034200D8AA19 /* APIService.m */,
+			);
+			path = APIService;
+			sourceTree = "<group>";
+		};
+		BA90C0232B4B034900D8AA19 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				BA90C0242B4B035500D8AA19 /* NewsListViewModel.h */,
+				BA90C0252B4B035500D8AA19 /* NewsListViewModel.m */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA90BFC82B4B02BF00D8AA19 /* Ienergizer_task */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA90BFF82B4B02C400D8AA19 /* Build configuration list for PBXNativeTarget "Ienergizer_task" */;
+			buildPhases = (
+				BA90BFC52B4B02BF00D8AA19 /* Sources */,
+				BA90BFC62B4B02BF00D8AA19 /* Frameworks */,
+				BA90BFC72B4B02BF00D8AA19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ienergizer_task;
+			productName = Ienergizer_task;
+			productReference = BA90BFC92B4B02BF00D8AA19 /* Ienergizer_task.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA90BFE32B4B02C300D8AA19 /* Ienergizer_taskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA90BFFB2B4B02C400D8AA19 /* Build configuration list for PBXNativeTarget "Ienergizer_taskTests" */;
+			buildPhases = (
+				BA90BFE02B4B02C300D8AA19 /* Sources */,
+				BA90BFE12B4B02C300D8AA19 /* Frameworks */,
+				BA90BFE22B4B02C300D8AA19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA90BFE62B4B02C300D8AA19 /* PBXTargetDependency */,
+			);
+			name = Ienergizer_taskTests;
+			productName = Ienergizer_taskTests;
+			productReference = BA90BFE42B4B02C300D8AA19 /* Ienergizer_taskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA90BFED2B4B02C300D8AA19 /* Ienergizer_taskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA90BFFE2B4B02C400D8AA19 /* Build configuration list for PBXNativeTarget "Ienergizer_taskUITests" */;
+			buildPhases = (
+				BA90BFEA2B4B02C300D8AA19 /* Sources */,
+				BA90BFEB2B4B02C300D8AA19 /* Frameworks */,
+				BA90BFEC2B4B02C300D8AA19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA90BFF02B4B02C300D8AA19 /* PBXTargetDependency */,
+			);
+			name = Ienergizer_taskUITests;
+			productName = Ienergizer_taskUITests;
+			productReference = BA90BFEE2B4B02C300D8AA19 /* Ienergizer_taskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA90BFC12B4B02BF00D8AA19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					BA90BFC82B4B02BF00D8AA19 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					BA90BFE32B4B02C300D8AA19 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = BA90BFC82B4B02BF00D8AA19;
+					};
+					BA90BFED2B4B02C300D8AA19 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = BA90BFC82B4B02BF00D8AA19;
+					};
+				};
+			};
+			buildConfigurationList = BA90BFC42B4B02BF00D8AA19 /* Build configuration list for PBXProject "Ienergizer_task" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA90BFC02B4B02BF00D8AA19;
+			productRefGroup = BA90BFCA2B4B02BF00D8AA19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA90BFC82B4B02BF00D8AA19 /* Ienergizer_task */,
+				BA90BFE32B4B02C300D8AA19 /* Ienergizer_taskTests */,
+				BA90BFED2B4B02C300D8AA19 /* Ienergizer_taskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA90BFC72B4B02BF00D8AA19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA90BFDC2B4B02C200D8AA19 /* LaunchScreen.storyboard in Resources */,
+				BA90BFD92B4B02C200D8AA19 /* Assets.xcassets in Resources */,
+				BA90C00D2B4B030700D8AA19 /* NewsTableViewCell.xib in Resources */,
+				BA90BFD72B4B02BF00D8AA19 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA90BFE22B4B02C300D8AA19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA90BFEC2B4B02C300D8AA19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA90BFC52B4B02BF00D8AA19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA90C01D2B4B033000D8AA19 /* News.m in Sources */,
+				BA90C0062B4B02F100D8AA19 /* NewsDetailsViewController.m in Sources */,
+				BA90BFCE2B4B02BF00D8AA19 /* AppDelegate.m in Sources */,
+				BA90C0262B4B035600D8AA19 /* NewsListViewModel.m in Sources */,
+				BA90C01C2B4B033000D8AA19 /* Article.m in Sources */,
+				BA90C00C2B4B030700D8AA19 /* NewsTableViewCell.m in Sources */,
+				BA90C01E2B4B033000D8AA19 /* ImageCache.m in Sources */,
+				BA90C0222B4B034300D8AA19 /* APIService.m in Sources */,
+				BA90BFDF2B4B02C200D8AA19 /* main.m in Sources */,
+				BA90BFD12B4B02BF00D8AA19 /* SceneDelegate.m in Sources */,
+				BA90C0142B4B031B00D8AA19 /* CustomImageView.m in Sources */,
+				BA90C0132B4B031B00D8AA19 /* Constants.m in Sources */,
+				BA90C0072B4B02F100D8AA19 /* NewsListViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA90BFE02B4B02C300D8AA19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA90BFE92B4B02C300D8AA19 /* Ienergizer_taskTests.m in Sources */,
+				BA90C02E2B4B036900D8AA19 /* CustomImageViewTests.m in Sources */,
+				BA90C0302B4B036900D8AA19 /* NewsDetailsViewControllerTests.m in Sources */,
+				BA90C02D2B4B036900D8AA19 /* NewsTableviewcellTests.m in Sources */,
+				BA90C02C2B4B036900D8AA19 /* NewsListViewModelTests.m in Sources */,
+				BA90C02F2B4B036900D8AA19 /* MockAPIServiceTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA90BFEA2B4B02C300D8AA19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA90BFF32B4B02C300D8AA19 /* Ienergizer_taskUITests.m in Sources */,
+				BA90BFF52B4B02C400D8AA19 /* Ienergizer_taskUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA90BFE62B4B02C300D8AA19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA90BFC82B4B02BF00D8AA19 /* Ienergizer_task */;
+			targetProxy = BA90BFE52B4B02C300D8AA19 /* PBXContainerItemProxy */;
+		};
+		BA90BFF02B4B02C300D8AA19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA90BFC82B4B02BF00D8AA19 /* Ienergizer_task */;
+			targetProxy = BA90BFEF2B4B02C300D8AA19 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA90BFD52B4B02BF00D8AA19 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA90BFD62B4B02BF00D8AA19 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA90BFDA2B4B02C200D8AA19 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA90BFDB2B4B02C200D8AA19 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA90BFF62B4B02C400D8AA19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BA90BFF72B4B02C400D8AA19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA90BFF92B4B02C400D8AA19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Ienergizer_task/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sample.com.Ienergizer-task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA90BFFA2B4B02C400D8AA19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Ienergizer_task/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sample.com.Ienergizer-task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BA90BFFC2B4B02C400D8AA19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sample.com.Ienergizer-taskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ienergizer_task.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ienergizer_task";
+			};
+			name = Debug;
+		};
+		BA90BFFD2B4B02C400D8AA19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sample.com.Ienergizer-taskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ienergizer_task.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ienergizer_task";
+			};
+			name = Release;
+		};
+		BA90BFFF2B4B02C400D8AA19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sample.com.Ienergizer-taskUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ienergizer_task;
+			};
+			name = Debug;
+		};
+		BA90C0002B4B02C400D8AA19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sample.com.Ienergizer-taskUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ienergizer_task;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA90BFC42B4B02BF00D8AA19 /* Build configuration list for PBXProject "Ienergizer_task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA90BFF62B4B02C400D8AA19 /* Debug */,
+				BA90BFF72B4B02C400D8AA19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA90BFF82B4B02C400D8AA19 /* Build configuration list for PBXNativeTarget "Ienergizer_task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA90BFF92B4B02C400D8AA19 /* Debug */,
+				BA90BFFA2B4B02C400D8AA19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA90BFFB2B4B02C400D8AA19 /* Build configuration list for PBXNativeTarget "Ienergizer_taskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA90BFFC2B4B02C400D8AA19 /* Debug */,
+				BA90BFFD2B4B02C400D8AA19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA90BFFE2B4B02C400D8AA19 /* Build configuration list for PBXNativeTarget "Ienergizer_taskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA90BFFF2B4B02C400D8AA19 /* Debug */,
+				BA90C0002B4B02C400D8AA19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA90BFC12B4B02BF00D8AA19 /* Project object */;
+}
